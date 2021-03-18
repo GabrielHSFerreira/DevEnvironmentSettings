@@ -1,0 +1,85 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "profiles": [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "colorScheme": "Nord",
+            "commandline": "powershell.exe",
+            "hidden": false,
+            "fontFace": "Hack",
+            "fontSize": 9
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "colorScheme": "Nord",
+            "commandline": "cmd.exe",
+            "hidden": false,
+            "fontFace": "Hack",
+            "fontSize": 9
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "colorScheme": "Nord",
+            "source": "Windows.Terminal.Azure",
+            "fontFace": "Hack",
+            "fontSize": 9
+        },
+        {
+            "guid": "{f1f8d416-375e-4a4d-a9ba-a7abb5fed7ff}",
+            "hidden": false,
+            "name": "Git Bash",
+            "colorScheme": "Nord",
+            "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "startingDirectory": "%USERPROFILE%",
+            "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+            "fontFace": "Hack",
+            "fontSize": 9
+        },
+        {
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "hidden": false,
+            "name": "Ubuntu",
+            "colorScheme": "Nord",
+            "source": "Windows.Terminal.Wsl",
+            "fontFace": "Hack",
+            "fontSize": 9,
+            "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\{your-linux-user}"
+        }
+    ],
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "name": "Nord",
+            "background": "#2E3440",
+            "black": "#3B4252",
+            "blue": "#81A1C1",
+            "cyan": "#88C0D0",
+            "foreground": "#D8DEE9",
+            "green": "#A3BE8C",
+            "brightBlack": "#4C566A",
+            "brightBlue": "#81A1C1",
+            "brightCyan": "#8FBCBB",
+            "brightGreen": "#A3BE8C",
+            "brightPurple": "#B48EAD",
+            "brightRed": "#BF616A",
+            "brightWhite": "#ECEFF4",
+            "brightYellow": "#EBCB8B",
+            "purple": "#B48EAD",
+            "red": "#BF616A",
+            "white": "#E5E9F0",
+            "yellow": "#EBCB8B"
+        }
+    ],
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}

@@ -1,10 +1,7 @@
-# Environment Variables
-$DefaultUser = '{your-windows-user}'
-
 # Powerline
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-Theme Agnoster
+Set-PoshPrompt -Theme "~\PoshThemes\nordagnosterplus.json"
 
 # Autocomplete
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete

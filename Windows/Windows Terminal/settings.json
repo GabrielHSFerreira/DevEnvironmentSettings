@@ -1,4 +1,5 @@
 {
+	"$help": "https://aka.ms/terminal-documentation",
 	"$schema": "https://aka.ms/terminal-profiles-schema",
 	"actions": [],
 	"defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -9,7 +10,6 @@
 		"list": [
 			{
 				"colorScheme": "Nord",
-				"commandline": "powershell.exe",
 				"font": {
 					"face": "MesloLGSDZ Nerd Font Mono",
 					"size": 9
@@ -20,7 +20,6 @@
 			},
 			{
 				"colorScheme": "Nord",
-				"commandline": "cmd.exe",
 				"font": {
 					"face": "Hack",
 					"size": 9
@@ -64,6 +63,18 @@
 				"name": "Ubuntu",
 				"source": "Windows.Terminal.Wsl",
 				"startingDirectory": "\\\\wsl$\\Ubuntu\\home\\gabriel"
+			},
+			{
+				"guid": "{c556c060-c427-553e-be54-daccfc9ac889}",
+				"hidden": false,
+				"name": "Developer Command Prompt for VS 2022",
+				"source": "Windows.Terminal.VisualStudio"
+			},
+			{
+				"guid": "{b2c3865b-d083-5b50-9085-80a4b6d904db}",
+				"hidden": false,
+				"name": "Developer PowerShell for VS 2022",
+				"source": "Windows.Terminal.VisualStudio"
 			}
 		]
 	},
